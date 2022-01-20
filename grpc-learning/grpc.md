@@ -33,9 +33,11 @@ cd greeter_client
 go run main.go
 ```
 
-![](images/server.PNG)
+服务端
+![](../images/server.PNG)
 
-![](images/client.PNG)
+客户端
+![](../images/client.PNG)
 
 
 ## Protobuf
