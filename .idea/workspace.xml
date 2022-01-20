@@ -56,7 +56,7 @@
     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Go Build.go build slice.go">
+  <component name="RunManager" selected="Go Build.go build method.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go-tutorial" />
       <working_directory value="$PROJECT_DIR$" />
@@ -66,44 +66,44 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build array.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build map-test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-tutorial" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/006-arrays/array.go" />
+      <filePath value="$PROJECT_DIR$/010-maps/map-test.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build function-test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build method.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-tutorial" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/003-functions/function-test.go" />
+      <filePath value="$PROJECT_DIR$/013-method/method.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build package-test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build pointer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-tutorial" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/004-package/package-test.go" />
+      <filePath value="$PROJECT_DIR$/pointer/pointer.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build package-url.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build slice copy.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-tutorial" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/005-package-url/package-url.go" />
+      <filePath value="$PROJECT_DIR$/008-slices-copy-pro/slice copy.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build slice.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build structs.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-tutorial" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/007-slices/slice.go" />
+      <filePath value="$PROJECT_DIR$/012-structs/structs.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build slice.go" />
-        <item itemvalue="Go Build.go build array.go" />
-        <item itemvalue="Go Build.go build package-url.go" />
-        <item itemvalue="Go Build.go build package-test.go" />
-        <item itemvalue="Go Build.go build function-test.go" />
+        <item itemvalue="Go Build.go build method.go" />
+        <item itemvalue="Go Build.go build structs.go" />
+        <item itemvalue="Go Build.go build pointer.go" />
+        <item itemvalue="Go Build.go build map-test.go" />
+        <item itemvalue="Go Build.go build slice copy.go" />
       </list>
     </recent_temporary>
   </component>
@@ -132,5 +132,20 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/007-slices/slice.go</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/012-structs/structs.go</url>
+          <line>41</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
