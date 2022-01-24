@@ -11,7 +11,7 @@ gRPC是google开发的一个RPC框架，跨语言，跨平台，基于Protobuf�
 ## 
 
 ## 初体验
-
+尝试了其他方法，感觉安装体验很不好，这个方法是最快完成的。
 安装步骤：
 
 ```shell
@@ -34,9 +34,11 @@ go run main.go
 ```
 
 服务端
+
 ![](../images/server.PNG)
 
 客户端
+
 ![](../images/client.PNG)
 
 
@@ -61,3 +63,5 @@ message Person {
 ## 参考连接
 
 [go 安装指定版本](https://blog.csdn.net/u013288190/article/details/117318918)
+[grpc 安装以及墙的解决方法](https://www.cnblogs.com/rongfengliang/p/8480790.html)
+[Linux环境下编译grpc](https://blog.csdn.net/y601500359/article/details/114531937)
