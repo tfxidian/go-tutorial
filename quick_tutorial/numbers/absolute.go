@@ -4,7 +4,7 @@ import (
 	"math"
 )
 
-func absolute(num int)bool{
+func absolute(num int)int{
 	if num <0{
 		return 0-num
 	}
