@@ -1,6 +1,6 @@
 package numbers
 
-func absolute(num int)int{
+func Absolute(num int)int{
 	if num <0{
 		return 0-num
 	}
