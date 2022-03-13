@@ -35,8 +35,6 @@ func slicemake2()  {
 
 }
 
-
-
 func main() {
 	makeslice()
 	slicemake2()
