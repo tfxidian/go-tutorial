@@ -12,9 +12,6 @@ var cliGender = flag.String("gender", "male", "Input Your Gender")
 func main() {
 
 	flag.Parse()
-	cliFlag =5
-	fmt.Println(cliFlag)
-
 	// 输出命令行参数
 	fmt.Println("name=", *cliName)
 	fmt.Println("age=", *cliAge)
